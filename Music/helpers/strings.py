@@ -26,9 +26,6 @@ class TEXTS:
         "**</>** {5}"
     )
     PING_REPLY = (
-       PING_IMG_URL = getenv("PING_IMG_URL",
-    "https://te.legra.ph/file/06a14e0e700a3a0a56d35.jpg",
-    )
     "**📌 Pinged Bot Server!**\n\n"
         "**🏁 Speed:** __{0} ms__\n"
         "**⏳ Uptime:** __{1}__\n"
