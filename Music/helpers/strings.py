@@ -19,14 +19,17 @@ class TEXTS:
     BOOTED = (
         "#START\n\n"
         "**{0} is alive!**\n\n"
-        "__» Hell-Music Version:__ `{1}`\n"
+        "__» NJ-Music Version:__ `{1}`\n"
         "__» Python Version:__ `{2}`\n"
         "__» Pyrogram Version:__ `{3}`\n"
         "__» PyTgCalls Version:__ `{4}`\n\n"
         "**</>** {5}"
     )
     PING_REPLY = (
-        "**📌 Pinged Bot Server!**\n\n"
+       PING_IMG_URL = getenv("PING_IMG_URL",
+    "https://te.legra.ph/file/06a14e0e700a3a0a56d35.jpg",
+    )
+    "**📌 Pinged Bot Server!**\n\n"
         "**🏁 Speed:** __{0} ms__\n"
         "**⏳ Uptime:** __{1}__\n"
         "**🎶 VC Ping:** __{2} ms__"
@@ -212,4 +215,4 @@ class TEXTS:
         "__» Enjoy the music and let us know if you have any suggestions for improvement.__\n\n"
         "❤️🎶 @{2}"
     )
-    PERFORMER = "[ †hê Hêllẞø† ]"
+    PERFORMER = "[ †hê ÑJ BOT ]"
